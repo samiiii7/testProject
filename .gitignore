@@ -1,2 +1,4 @@
 .idea/
 .editorconfig
+file1.txt
+phpunit.phar
