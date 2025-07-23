@@ -11,13 +11,14 @@ $id = (int)  $_GET['id'] ;
 mysqli_stmt_bind_param($stmt, 'i', $id);
 mysqli_stmt_execute($stmt);
 var_dump(mysqli_stmt_get_result($stmt));*/
- echo 'ghazal is koskhol';
-function error($error) {
-    echo $error;
-    exit();
+?>
+<?php
+$searchArray = ['first' => 1, 'second' => 4];
+foreach ($searchArray as $item) {
+    if(!array_key_exists($item, $this->data)){}
 }
-echo 'change';
+?>
 
-echo 'the new changes';
+
 ?>
 

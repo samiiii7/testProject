@@ -23,18 +23,11 @@ class strawberry extends Fruit {
 $straw = new strawberry("strawberry","red");
 echo $straw->mes();*/
 
-class user{
-    public $name;
-    public $eamil;
-    public $password;
 
-
-    public function __construct($name, $email, $password) {
-        $this->name = $name;
-        $this->eamil = $email;
-        $this->password = $password;
+class Weather {
+    public static function convertor($tem) {
+        return $tem *9 / 5 + 32;
     }
 }
 
-$user1 = new User('sami','email','password');
-var_dump($user1);
+echo Weather::convertor(50);
